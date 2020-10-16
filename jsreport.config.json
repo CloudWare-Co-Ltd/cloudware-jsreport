@@ -23,7 +23,7 @@
     }
   },
   "allowLocalFilesAccess": true,
-  "reportTimeout": 60000,
+  "reportTimeout": 600000,
   "templatingEngines": {
     "strategy": "http-server"
   },
