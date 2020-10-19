@@ -29,12 +29,14 @@
   },
   "extensions": {
     "authentication": {
-      "cookieSession": {},
-      "admin": {
-        "username": "admin",
-        "password": "password"
+      "cookieSession": {
+        "secret": "dasd321as56d1sd5s61vdv32"
       },
-      "enabled": false
+      "admin": {
+        "username": "cloudware",
+        "password": "cloudware@jsreport"
+      },
+      "enabled": true
     },
     "sample-template": {
       "createSamples": false
