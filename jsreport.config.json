@@ -1,7 +1,9 @@
 {
   "httpPort": 5488,
   "store": {
-    "provider": "fs"
+    "provider": "mongodb",
+    "address": "mongo:27017",
+    "databaseName" : "std"
   },
   "blobStorage": {
     "provider": "fs"
