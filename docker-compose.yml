@@ -4,11 +4,8 @@ services:
     user: root
     build:
       context: ./
-      dockerfile: Dockerfile
     restart: always
     ports:
-      - "5488:5488"
+      - "1001:5488"
     volumes:
-    - pks-reports:/app/data
-volumes:
-  pks-reports:
+    - ./jsreport-data:/app/data
