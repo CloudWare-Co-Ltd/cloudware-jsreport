@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  server:
+    user: root
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "5488:5488"
+    volumes:
+    - pks-reports:/app/data
+volumes:
+  pks-reports:
